@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: aliceblue;
+    background-image: url(netflex.jpg);
+    background-size: cover;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+
+}
+.card{
+    width: 490px;
+    background-color:rgb(14, 13, 13);
+    border-radius: 8px;
+    box-shadow: 0px 8px 10px black;
+    margin: 10px;
+    height: 650px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+    margin: 15px;
+    width: 35%;
+    font-size: 47px;
+    font-family:Arial;
+    color: red;
+}
+h3{
+    font-size: 30px;
+    font-family:Arial;
+    text-align: right;
+    padding: 25px;
+    width: 35%;
+    margin-top: 25px;
+    color: white;
+
+}
+ .lable,input{  
+    padding: 15px;
+    margin: 13px;
+    width: 75%;
+    border-radius: 4px;  
+    font-size: 15px;
+    font-family: Arial;
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+   
+
+}
+ button{
+    padding: 10px;
+    width:75%;
+    border-radius: 4px;
+    margin:13px;
+    color:white;
+    background-color:red;
+    font-family: Arial;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+ small{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+ .small{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20;
+    color: white;
+
+ }
+ p{
+    font-size: 13px;
+    text-align:center;
+    padding: 15px;
+    color: white;
+
+ }
+  button:hover{
+    background-color:rgb(48, 133, 40);
+  }
+  a{
+    color: blue;
+  }
